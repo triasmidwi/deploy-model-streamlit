@@ -3,11 +3,11 @@ import pandas as pd
 import joblib
 from sklearn.ensemble import RandomForestClassifier
 
-st.title('Iris model inference!')
+st.title('Iris Model Classification!')
 
 with st.sidebar:
     st.header('Data requirements')
-    st.caption('To inference the model you need to upload a dataframe in csv format with four columns/features (columns names are not important)')
+    st.caption('Untuk menggunakan model, silahkan upload dataframe berbentuk csv yang memiliki 4 kolom/fitur.')
     with st.expander('Data format'):
         st.markdown(' - utf-8')
         st.markdown(' - separated by coma')
